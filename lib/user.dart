@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class UserProfile extends StatelessWidget {
   const UserProfile({super.key});
 
+//i added more code on the file
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -111,9 +112,11 @@ class UserProfile extends StatelessWidget {
                             ),
                             child: Center(
                               child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center, // Fixed typo
+                                mainAxisAlignment:
+                                    MainAxisAlignment.center, // Fixed typo
                                 children: [
-                                  Icon(Icons.delete, color: Colors.white), // Icon
+                                  Icon(Icons.delete,
+                                      color: Colors.white), // Icon
                                   const SizedBox(width: 16), // Added spacing
                                   const Text(
                                     'Delete',
