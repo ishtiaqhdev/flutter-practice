@@ -28,6 +28,7 @@ class UserProfile extends StatelessWidget {
             width: 40,
             decoration: BoxDecoration(
               color: Colors.white,
+          
               shape: BoxShape.circle,
             ),
           ),
