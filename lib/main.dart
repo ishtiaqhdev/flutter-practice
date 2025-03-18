@@ -3,7 +3,9 @@
 import 'package:flutter/material.dart';
 // import 'package:first_project/second_screen.dart';
 // import 'package:first_project/user.dart';
-import 'package:first_project/scrolling.dart';
+// import 'package:first_project/scrolling.dart';
+import 'package:first_project/myapp.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -22,9 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:ScrollingDemo(),
-    
-      
+      home: MyAppDemo(),
     );
   }
 }
